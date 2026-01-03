@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (no subir datasets grandes)
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.zip
+*.csv
+*.json
+*.parquet
+*.pickle
+*.pkl
+
+# Excepciones: sí subir archivos pequeños de muestra
+!data/raw/sample_*.csv
+!data/processed/*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reports
+reports/*.html
+reports/*.pdf
+
+# Models (archivos grandes)
+*.h5
+*.joblib
+*.sav
+models/*.pkl
+
+# Environment variables
+.env

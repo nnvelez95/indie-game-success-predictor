@@ -17,18 +17,18 @@ build/
 */.ipynb_checkpoints/*
 
 # Data files (no subir datasets grandes)
-data/raw/*.csv
-data/raw/*.json
-data/raw/*.zip
-*.csv
-*.json
-*.parquet
-*.pickle
-*.pkl
+#data/raw/*.csv
+#data/raw/*.json
+#data/raw/*.zip
+#*.csv
+#*.json
+#*.parquet
+#*.pickle
+#*.pkl
 
 # Excepciones: sí subir archivos pequeños de muestra
-!data/raw/sample_*.csv
-!data/processed/*.csv
+#!data/raw/sample_*.csv
+#!data/processed/*.csv
 
 # IDE
 .vscode/
